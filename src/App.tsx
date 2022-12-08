@@ -1,11 +1,7 @@
-import Dashboard from 'src/pages/Dashboard/Dashboard';
+import Router from 'src/routes';
 
 function App() {
-  return (
-    <div className="App text-center">
-      <Dashboard />
-    </div>
-  );
+  return <Router />;
 }
 
 export default App;

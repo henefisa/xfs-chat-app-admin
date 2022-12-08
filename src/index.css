@@ -27,3 +27,9 @@
     @apply font-publicSans leading-[1.5] text-gray font-[400];
   }
 }
+
+@layer components {
+  .btn {
+    @apply bg-primary text-[#fff] px-6 py-1 rounded-md hover:bg-[#6159cb] transition-all duration-300;
+  }
+}
