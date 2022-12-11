@@ -1,6 +1,6 @@
-import Dashboard from 'src/components/Dashboard';
-import Customers from 'src/components/Customers';
-import Settings from 'src/components/Settings';
+import Customers from '@modules/Customers';
+import Dashboard from '@modules/Dashboard';
+import Settings from '@modules/Settings';
 
 const routePaths = [
   { path: '/', component: Dashboard },

@@ -3,7 +3,7 @@ import Sidebar from './Sidebar';
 import Header from './Header';
 
 interface ILayoutProps {
-  content: React.ReactElement;
+  content: React.ReactNode;
 }
 
 const Layout: React.FC<ILayoutProps> = ({ content }) => {
